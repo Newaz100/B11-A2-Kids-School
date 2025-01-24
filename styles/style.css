@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -80,11 +81,11 @@ nav a{
 .heading{
     font-size: 45px;
     padding-bottom: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Quicksand", serif;
 }
 .heading-des{
     padding: 90px 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Quicksand", serif;
 }
 .Empowering{
     color: orange;
@@ -98,6 +99,60 @@ nav a{
     padding: 15px 25px;
     border-radius: 15px;
     font-size: medium;
+}
+
+.second-page{
+    padding: 20px 100px;
+    background-image: url(../assets/bg.png);
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.standard-h1{
+    font-family: "Quicksand", serif;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 900px;
+}
+.age-container{
+    display: flex;
+
+    gap: 30px;
+}
+
+.age-card1{
+    border-radius: 15px;
+    padding: 30px;
+    background: linear-gradient(145deg, #d1e9f4, #f1f3f4);
+    font-family: "Quicksand", serif;
+}
+.age-card1 a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.age-card2{
+    border-radius: 15px;
+    padding: 30px;
+    background: linear-gradient(145deg, #fae6d7, #f1f3f4);
+    font-family: "Quicksand", serif;
+
+}
+.age-card2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+.age-card3{
+    border-radius: 15px;
+    padding: 30px;
+    background: linear-gradient(180deg, #ead8f8, #f5f5f5);
+    font-family: "Quicksand", serif;
+}
+.age-card3 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8e47e6;
 }
 
 
@@ -124,6 +179,12 @@ nav a{
     .hero{
         width: 100%;
         /* margin-right: 20px; */
+    }
+
+    .age-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
     
 }
