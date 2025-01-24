@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+header .div{
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-btn{
+    text-decoration: none;
+    background-color: orange;
+    color:white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ .nav-bar{
+    display: flex;
+    margin: 20px;
+ }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-btn1{
+    text-decoration: none;
+    color: orange;
+}
+.nav-btn2{
+    text-decoration: none;
+    color: skyblue;
+}
+.nav-btn3{
+    text-decoration: none;
+    color: #05D4DF;
+}
+.nav-btn4{
+    text-decoration: none;
+    color: #5D58EF;
+}
+.fa-solid{
+    width: 40px;
+    font-size: 35px;
+}
+
+
+
+/* main */
+.kid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.heading{
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading-des{
+    padding: 90px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Empowering{
+    color: orange;
+}
+.towards{
+    color: skyblue;
+}
+.Enroll-btn{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    .contact-btn{
+        display: none;
+    }
+
+    header{
+        padding: 30px;
+        border-bottom: orange solid ;
+    }
+
+    
+    .kid-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero{
+        width: 100%;
+        /* margin-right: 20px; */
+    }
+    
+}
