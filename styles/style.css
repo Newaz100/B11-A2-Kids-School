@@ -96,6 +96,16 @@ nav a{
     color: skyblue;
 }
 
+.Enroll-btn{
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: medium;
+    text-align: center; 
+    cursor: pointer; 
+}
+
 .hero{
     width: 100%;
 }
@@ -274,6 +284,41 @@ nav a{
 }
 
 
+.footer-page{
+    display: flex;
+    background-color: skyblue;
+    padding: 100px;
+    gap: 30px;
+}
+.footer-page .logo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: quicksand;
+
+}
+
+.footer-page p{
+    background-color: skyblue;
+    font-family: quicksand;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: quicksand;
+}
+.social-link{
+    font-size: 22px;
+    padding-left:100px ;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -322,6 +367,13 @@ nav a{
         position:relative;
         top: -20px;
         left: 10px;
+    }
+
+    .footer-page{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
     }
     
 }
