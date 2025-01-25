@@ -71,6 +71,8 @@ nav a{
 
 
 
+
+
 /* main */
 .kid-container{
     display: flex;
@@ -93,12 +95,9 @@ nav a{
 .towards{
     color: skyblue;
 }
-.Enroll-btn{
-    background-color: black;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 15px;
-    font-size: medium;
+
+.hero{
+    width: 100%;
 }
 
 .second-page{
@@ -156,6 +155,127 @@ nav a{
 }
 
 
+.story{
+    
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, #ede9a4, #f3fbfb);
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/bg.png') no-repeat center center fixed; */
+    padding: 20px 100px;
+}
+
+.story-header{
+    text-align: center;
+    font-size: 40px;
+    font-family: quicksand;
+    font-weight: bold;
+}
+/* Photo collage */
+.photo-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+.photo-row h3 ,p{
+    background-color: white;
+    padding: 10px;
+}
+.photo-row .img1-h3{
+    margin-top: -28px;
+}
+.photo-row p{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.view {
+    display: flex;         
+    justify-content: center; 
+    align-items: center;    
+    height: 5vh;           
+}
+
+.view .view-btn {
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: medium;
+    text-align: center; 
+    cursor: pointer; 
+}
+
+.photo-row img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.img1-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.img1-container button{
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(83, 184, 225);
+    color: white;
+    border-radius: 10px;
+    position:relative;
+    top: -20px;
+    left: 30px;
+}
+.img1-container .img1{
+    width: 100%;
+    height: 70%;
+
+}
+
+.pic-row4{
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.pic-row4 img{
+    height: 35%;
+}
+
+.pic-row4 button{
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(83, 184, 225);
+    color: white;
+    border-radius: 10px;
+    position:relative;
+    top: -20px;
+    left: 30px;
+}
+
+.photo-row .img-h{
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.photo-row h3{
+    border-radius: 0px 0px 10px 10px;
+}
+.pic-row4 .btn1{
+    background-color: #8e47e6;
+}
+.pic-row4 .btn2{
+    background-color: #47e64c;
+}
+.pic-row4 .btn3{
+    background-color: #b69436;
+}
+.pic-row4 .btn4{
+    background-color: #e64781;
+}
+
+
+
+
 @media screen and (max-width: 576px) {
     nav{
         display: none;
@@ -185,6 +305,23 @@ nav a{
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+    .img1-container{
+        display: none;
+    }
+    .view{
+        height: 35vh;
+    }
+
+    .pic-row4 button{
+        width: 150px;
+        padding: 5px;
+        background-color: rgb(83, 184, 225);
+        color: white;
+        border-radius: 10px;
+        position:relative;
+        top: -20px;
+        left: 10px;
     }
     
 }
