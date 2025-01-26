@@ -71,6 +71,16 @@ nav a{
 
 
 
+marquee {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #751d9d;
+    padding: 10px 0;
+}
+
+
+
 
 
 /* main */
